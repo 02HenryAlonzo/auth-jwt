@@ -10,20 +10,22 @@ Este proyecto implementa un sistema de autenticación básico utilizando JSON We
 
 ## Estructura del Proyecto
 
+```plaintext
 auth-jwt/
 ├── src/
 │   ├── config/
-│   │   └── index.js # Configuraciones y variables de entorno
+│   │   └── index.js          # Configuraciones y variables de entorno
 │   ├── controllers/
 │   │   └── authController.js # Controladores para el manejo de la autenticación
 │   ├── middleware/
-│   │   └── verifyToken.js # Middleware para verificar el token JWT
+│   │   └── verifyToken.js    # Middleware para verificar el token JWT
 │   ├── routes/
-│   │   └── authRoutes.js # Rutas relacionadas con la autenticación
-│   └── app.js # Archivo principal de la aplicación
-├── .env # Variables de entorno
+│   │   └── authRoutes.js     # Rutas relacionadas con la autenticación
+│   └── app.js                # Archivo principal de la aplicación
+├── .env                      # Variables de entorno
 ├── package.json
 └── README.md
+```
 
 ## Configuración del Proyecto
 
